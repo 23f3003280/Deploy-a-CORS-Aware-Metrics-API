@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.types import ASGIApp, Receive, Scope, Send
 
 ALLOWED_ORIGIN = "https://dash-cpu0ve.example.com"
-EMAIL = os.environ.get("EMAIL", "").strip()
+EMAIL = "23f3003280@ds.study.iitm.ac.in"
 
 app = FastAPI(title="Descriptive Statistics API")
 
